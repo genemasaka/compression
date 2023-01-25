@@ -1,4 +1,4 @@
-Compression
+<h1>Compression</h1>
 This program is a command-line utility for compressing files using the Gzip format.
 
 Requirements
