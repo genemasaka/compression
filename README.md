@@ -1,9 +1,12 @@
 <h1>Compression</h1>
 This program is a command-line utility for compressing files using the Gzip format.
 
-Requirements
+<h2>Requirements</h2>
+
 Rust programming language
-Usage
+
+<h2>Usage</h2>
+
 To use this program, you'll need to have Rust programming language installed on your system. You can check if rust is installed by running the following command in the terminal
 
   rustc --version
