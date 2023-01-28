@@ -6,41 +6,42 @@ This program is a command-line utility for compressing files using the Gzip form
 Rust programming language
 
 <h2>Usage</h2>
-
-To use this program, you'll need to have Rust programming language installed on your system. You can check if rust is installed by running the following command in the terminal
+<ul>
+<li>To use this program, you'll need to have Rust programming language installed on your system. You can check if rust is installed by running the following command in the terminal</li>
 
   rustc --version
 
 Once you have rust installed, you can run this program by following these steps:
 
-Open the terminal and navigate to the directory where the program's source code is located.
+<li>Open the terminal and navigate to the directory where the program's source code is located.</li>
 
-Compile the program using the following command:
+<li>Compile the program using the following command:</li>
 
     cargo build --release
     
-Run the program using the following command:
+<li>Run the program using the following command:</li>
 
     cargo run --release <source> <target>
     
-Replace <source> with the path to the source file you want to compress and <target> with the path where you want to save the compressed file.
+<li>Replace <source> with the path to the source file you want to compress and <target> with the path where you want to save the compressed file.</li>
 
-The program will compress the source file and create a new compressed file at the target location. It will also display the source and target file sizes, along with the time taken to compress the file.
+<li>The program will compress the source file and create a new compressed file at the target location. It will also display the source and target file sizes, along with the time taken to compress the file.</li>
 
-If you want to build the program and create the binary you can use the following command:
+<li>If you want to build the program and create the binary you can use the following command:</li>
 
   cargo build --release
 
-The binary will be located in the target/release directory.
+<li>The binary will be located in the target/release directory.</li>
 
-You can then run the binary like this:
+<li>You can then run the binary like this:</li>
 
   ./target/release/compression <source> <target>
 
-Alternatively, if you want to build the program without creating a binary you can use the following command:
+<li>Alternatively, if you want to build the program without creating a binary you can use the following command:</li>
 
   cargo run --release <source> <target>
 
-This will run the program directly.
+<li>This will run the program directly.</li>
 
-Make sure that you have the right permissions to read and write in the source and target file directories.
+<li>Make sure that you have the right permissions to read and write in the source and target file directories.</li>
+</ul>
